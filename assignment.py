@@ -103,12 +103,6 @@ def menu():
         print("-----------------------------------------------------------------------------------------------------------------------------------------")
         exit()
 
-if __name__ == "__main__":
-    # 
-    # inventory = Inventory({"name":"mill", "date":"83949"}, "non-fiction")
-    # inventory.listAllBooks()
-
-    #simple menu
-    
+if __name__ == "__main__":   
     
     menu()
