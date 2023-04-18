@@ -1,0 +1,1 @@
+<__main__.Inventory object at 0x00000276407DF110>

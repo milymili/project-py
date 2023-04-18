@@ -76,6 +76,7 @@ def menu():
         date = input("Enter Date:\t")
 
         inventory = Inventory({"name": name, "date":date, "isbn":isbn}, typ)
+        # write_to_file(str(inventory))
         menu()
     elif x == "2":
         print("-----------------------------------------------------------------------------------------------------------------------------------------")
@@ -102,7 +103,10 @@ def menu():
         print("You exited bye!...")
         print("-----------------------------------------------------------------------------------------------------------------------------------------")
         exit()
-
+# def write_to_file(txt):
+#     file1 = open('books.txt', 'w')
+#     file1.writelines(txt)
+#     file1.close()
 if __name__ == "__main__":   
     
     menu()
